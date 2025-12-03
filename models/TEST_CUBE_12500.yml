@@ -1,0 +1,35 @@
+unique_name: TEST_CUBE_12500
+object_type: model
+label: TEST_CUBE_12500
+include_default_drillthrough: true
+visible: true
+
+relationships:
+
+  - unique_name: Internet_Sales.dataset_DateDimCustomerTest
+    from:
+      dataset: Internet Sales.dataset
+      join_columns:
+        - orderdate_N
+    to:
+      dimension: DateDimCustomerTest
+      level: day_date
+
+  - unique_name: factsalesN_1.dataset_DateDimCustomerTest
+    from:
+      dataset: factsalesN_1.dataset
+      join_columns:
+        - orderdateyr_1
+    to:
+      dimension: DateDimCustomerTest
+      level: day_date
+
+metrics:
+
+  - unique_name: m_salesamount_sum
+
+  - unique_name: OrderCount_DC
+
+  - unique_name: SalesAmountSumN_1
+
+  - unique_name: SalesOrder_DC_N_1

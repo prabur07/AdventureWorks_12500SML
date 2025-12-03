@@ -1,0 +1,6 @@
+unique_name: bigqueryconn.connection
+label: bigqueryconn
+object_type: connection
+as_connection: bigqueryconn
+database: <YOUR DATABASE>
+schema: adventureworkslab59

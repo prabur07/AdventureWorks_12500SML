@@ -1,0 +1,15 @@
+unique_name: factsalesN_1.dataset
+object_type: dataset
+label: factsalesN_1
+connection_id: bigqueryconn_adventureworkslab59.connection
+table: factsalesN_1
+
+columns:
+  - name: orderdatekey
+    data_type: date
+  - name: orderdateyr_1
+    data_type: date
+  - name: salesamount
+    data_type: double
+  - name: salesordernumber
+    data_type: string

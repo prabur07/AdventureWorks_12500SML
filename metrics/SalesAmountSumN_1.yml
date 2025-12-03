@@ -1,0 +1,6 @@
+unique_name: SalesAmountSumN_1
+object_type: metric
+label: SalesAmountSumN_1
+calculation_method: sum
+dataset: factsalesN_1.dataset
+column: salesamount

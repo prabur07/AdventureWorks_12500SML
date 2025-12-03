@@ -1,0 +1,6 @@
+unique_name: SalesOrder_DC_N_1
+object_type: metric
+label: SalesOrder_DC_N_1
+calculation_method: count distinct
+dataset: factsalesN_1.dataset
+column: salesordernumber

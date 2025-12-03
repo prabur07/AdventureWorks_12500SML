@@ -1,0 +1,6 @@
+unique_name: m_salesamount_sum
+object_type: metric
+label: salesamount_N
+calculation_method: sum
+dataset: Internet Sales.dataset
+column: salesamount

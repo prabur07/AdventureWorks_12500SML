@@ -1,0 +1,6 @@
+unique_name: AdventureWorks_12500.catalog
+object_type: catalog
+label: AdventureWorks_12500
+version: 1.1
+aggressive_agg_promotion: false
+build_speculative_aggs: false

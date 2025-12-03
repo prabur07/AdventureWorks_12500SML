@@ -1,0 +1,6 @@
+unique_name: OrderCount_DC
+object_type: metric
+label: OrderCount_DC
+calculation_method: count distinct
+dataset: Internet Sales.dataset
+column: salesordernumber
