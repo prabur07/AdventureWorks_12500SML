@@ -1,6 +1,0 @@
-unique_name: bigqueryconn_adventureworkslab59.connection
-label: bigqueryconn_adventureworkslab59
-object_type: connection
-as_connection: bigqueryconn
-database: ci-pipeline-199520
-schema: adventureworkslab59
