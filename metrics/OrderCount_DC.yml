@@ -4,3 +4,4 @@ label: OrderCount_DC
 calculation_method: count distinct
 dataset: Internet Sales.dataset
 column: salesordernumber
+format: '#,###.00 ;(#,###.00 )'
