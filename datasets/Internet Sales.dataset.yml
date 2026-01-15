@@ -27,7 +27,6 @@ columns:
     data_type: datetime
   - name: orderdate_N
     data_type: date
-    sql: CAST(orderdate as DATE)
   - name: orderdatekey
     data_type: "decimal(38,0)"
   - name: orderquantity
