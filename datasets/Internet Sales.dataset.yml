@@ -2,7 +2,7 @@ unique_name: Internet Sales.dataset
 object_type: dataset
 label: Internet Sales
 connection_id: bigqueryconn.connection
-table: factinternetsales
+table: factinternetsales12500
 
 columns:
   - name: carriertrackingnumber

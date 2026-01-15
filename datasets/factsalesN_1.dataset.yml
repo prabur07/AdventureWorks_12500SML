@@ -11,4 +11,4 @@ columns:
   - name: salesordernumber
     data_type: string
 connection_id: bigqueryconn.connection
-table: factsalesN_1
+table: factsales12500N_1
