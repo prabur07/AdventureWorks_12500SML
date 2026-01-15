@@ -1,26 +1,21 @@
 unique_name: DateDimCustomerTest
 object_type: dimension
 label: DateDimCustomerTest
-type: standard
-
 hierarchies:
-
   - unique_name: DateDimCustomerTest Hierarchy
     label: DateDimCustomerTest Hierarchy
-
     levels:
-
       - unique_name: day_date
-
 level_attributes:
-
   - unique_name: day_date
     label: day_date
+    constraint_translation_rank: 1
     dataset: datedimtest.dataset
     key_columns:
       - date_day
     name_column: date_day
-
 modeler_metadata:
-  version: "0"
-  modified: "false"
+  version: '0'
+  modified: 'false'
+relationships: []
+type: standard

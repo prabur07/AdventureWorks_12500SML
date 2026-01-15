@@ -2,11 +2,17 @@ unique_name: TEST_CUBE_12500
 object_type: model
 label: TEST_CUBE_12500
 include_default_drillthrough: true
-visible: true
-
+metrics:
+  - unique_name: m_salesamount_sum
+  - unique_name: OrderCount_DC
+  - unique_name: SalesAmountSumN_1
+  - unique_name: SalesOrder_DC_N_1
 relationships:
-
   - unique_name: Internet_Sales.dataset_DateDimCustomerTest
+    constraint_translation:
+      from_columns:
+        - orderdate_N
+      level: day_date
     from:
       dataset: Internet Sales.dataset
       join_columns:
@@ -14,8 +20,11 @@ relationships:
     to:
       dimension: DateDimCustomerTest
       level: day_date
-
   - unique_name: factsalesN_1.dataset_DateDimCustomerTest
+    constraint_translation:
+      from_columns:
+        - orderdateyr_1
+      level: day_date
     from:
       dataset: factsalesN_1.dataset
       join_columns:
@@ -23,13 +32,4 @@ relationships:
     to:
       dimension: DateDimCustomerTest
       level: day_date
-
-metrics:
-
-  - unique_name: m_salesamount_sum
-
-  - unique_name: OrderCount_DC
-
-  - unique_name: SalesAmountSumN_1
-
-  - unique_name: SalesOrder_DC_N_1
+visible: true
