@@ -1,0 +1,7 @@
+unique_name: OrderCount_NDC
+object_type: metric
+label: OrderCount_DC
+calculation_method: count distinct
+column: salesordernumber
+dataset: factsalesNDC
+format: '#,###.00 ;(#,###.00 )'
