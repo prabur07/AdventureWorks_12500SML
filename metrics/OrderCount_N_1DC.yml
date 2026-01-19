@@ -1,6 +1,6 @@
 unique_name: OrderCount_N_1DC
 object_type: metric
-label: OrderCount_DC
+label: OrderCount_N_1DC
 calculation_method: count distinct
 column: salesordernumber
 dataset: factsalesN_1DC
