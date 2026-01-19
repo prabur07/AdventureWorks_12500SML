@@ -1,13 +1,12 @@
 unique_name: TEST_CUBE_12500_NDC
 object_type: model
 label: TEST_CUBE_12500_NDC
-dimensions: []
 include_default_drillthrough: true
 metrics: 
   - unique_name: OrderCount_NDC
   - unique_name: OrderCount_N_1DC
 relationships:
-  - unique_name: Internet_Sales.dataset_DateDimCustomerTest
+  - unique_name: Internet_SalesNDC.dataset_DateDimCustomerTest
     constraint_translation:
       from_columns:
         - orderdate_N
@@ -19,7 +18,7 @@ relationships:
     to:
       dimension: DateDimCustomerTest
       level: day_date
-  - unique_name: factsalesN_1.dataset_DateDimCustomerTest
+  - unique_name: factsalesNDC_1.dataset_DateDimCustomerTest
     constraint_translation:
       from_columns:
         - orderdate_N_1_DC
